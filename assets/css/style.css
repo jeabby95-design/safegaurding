@@ -1,21 +1,24 @@
-
 /* CSS HEX */
-/* CSS HEX */
---raw-sienna: #d26849;
---flamingo: #f54d2c;
---tide: #bfb5af;
---leather: #956d56;
---fiord: #49596f;
---millbrook: #5e4031;
+:root {
+    --raw-sienna: #d26849;
+    --flamingo: #f54d2c;
+    --tide: #bfb5af;
+    --leather: #956d56;
+    --fiord: #49596f;
+    --millbrook: #5e4031;
+}
 
 /* Global Styles */
 /* Customize your global styles here */
 * {
-    /* Add global styles */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    /* Add body styles here */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
 }
 
 /* ===================================
@@ -23,9 +26,16 @@ body {
    =================================== */
 .hero-section {
     /* Customize hero section styles here */
-    background: image-url('assets/images/hero-bg.jpg') no-repeat center center;
+    background: url('../images/safe-hero-img.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
+    min-height: 1000px;
+
+.hero-section h1 {
+    color: #bfb5af;
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 400px;
 }
 
 
@@ -34,6 +44,7 @@ body {
    =================================== */
 .key-info-section {
     /* Customize key information section styles here */
+   
 }
 
 
@@ -41,6 +52,7 @@ body {
    KEY ACTIONS SECTION
    =================================== */
 .key-actions-section {
+ 
     /* Customize key actions section styles here */
 }
 
@@ -49,6 +61,7 @@ body {
    CONTACT SECTION
    =================================== */
 .contact-section {
+  
     /* Customize contact section styles here */
 }
 
