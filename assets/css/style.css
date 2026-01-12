@@ -1,6 +1,12 @@
-/* ===================================
-   CUSTOM STYLESHEET
-   =================================== */
+
+/* CSS HEX */
+/* CSS HEX */
+--raw-sienna: #d26849;
+--flamingo: #f54d2c;
+--tide: #bfb5af;
+--leather: #956d56;
+--fiord: #49596f;
+--millbrook: #5e4031;
 
 /* Global Styles */
 /* Customize your global styles here */
@@ -17,6 +23,9 @@ body {
    =================================== */
 .hero-section {
     /* Customize hero section styles here */
+    background: image-url('assets/images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
 }
 
 
