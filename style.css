@@ -1,0 +1,87 @@
+/* ===================================
+   CUSTOM STYLESHEET
+   =================================== */
+
+/* Global Styles */
+/* Customize your global styles here */
+* {
+    /* Add global styles */
+}
+
+body {
+    /* Add body styles here */
+}
+
+/* ===================================
+   HERO SECTION
+   =================================== */
+.hero-section {
+    /* Customize hero section styles here */
+}
+
+
+/* ===================================
+   KEY INFORMATION SECTION
+   =================================== */
+.key-info-section {
+    /* Customize key information section styles here */
+}
+
+
+/* ===================================
+   KEY ACTIONS SECTION
+   =================================== */
+.key-actions-section {
+    /* Customize key actions section styles here */
+}
+
+
+/* ===================================
+   CONTACT SECTION
+   =================================== */
+.contact-section {
+    /* Customize contact section styles here */
+}
+
+
+/* ===================================
+   FOOTER SECTION
+   =================================== */
+.footer-section {
+    /* Customize footer section styles here */
+}
+
+
+/* ===================================
+   MEDIA QUERIES - RESPONSIVE DESIGN
+   =================================== */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Customize styles for extra small screens here */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Customize styles for small screens here */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Customize styles for medium screens here */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Customize styles for large screens here */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Customize styles for extra large screens here */
+}
+
+/* XXL devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* Customize styles for xxl screens here */
+}
