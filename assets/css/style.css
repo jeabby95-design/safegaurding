@@ -20,6 +20,13 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
 }
+/* ===================================
+   NAVBAR STYLES
+   =================================== */
+.navbar {
+    /* Customize navbar styles here */
+}
+
 
 /* ===================================
    HERO SECTION
@@ -30,9 +37,11 @@ body {
     background-size: cover;
     background-position: center;
     min-height: 1000px;
+    background-color: var(--tide);
+}
 
 .hero-section h1 {
-    color: #bfb5af;
+    color: #5e4031;
     font-size: 8rem;
     text-align: center;
     margin-top: 400px;
@@ -81,6 +90,14 @@ body {
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
     /* Customize styles for extra small screens here */
+    .hero-section {
+        min-height: 600px;
+        background-position: center;
+        background-size: cover;
+    }
+    .hero-section h1 {
+        font-size: 3rem;
+        margin-top: 200px;  
 }
 
 /* Small devices (landscape phones, 576px and up) */
