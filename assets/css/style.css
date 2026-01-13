@@ -45,14 +45,14 @@ body {
    =================================== */
 .hero-section {
     /* Customize hero section styles here */
-    background: url('../images/safe-hero-img.jpg') no-repeat center center;
+    background: url('../Images/safe-hero-img.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     min-height: 1200px;
     background-color: var(--tide);
 }
 .banner {
-   width: 100vw;
+   width: 100vw;    
 }
 
 .hero-section h1 {

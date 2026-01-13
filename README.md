@@ -6,3 +6,4 @@ Chat GPT Generated content for website and I made amends based of previous exper
 
 Photos extracted from: https://www.freepik.com/
 
+When I checked on the deployed site after making more changes, the hero image was not showing. So I used copilot to sort it out. it was becasue my 'image' folder began with capital letters.
