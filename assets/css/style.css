@@ -71,26 +71,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 25px 25px;
     background-color: var(--tide);
 }
 .key-info-section .card{
     display: flex;
     flex-direction: column;
     height: 100%;
+    text-align: left;
+ 
 }
    
 
-
-
-/* ===================================
-   KEY ACTIONS SECTION
-   =================================== */
-    .key-actions-section {
-    /* Customize key actions section styles here */
-
-    padding: 50px 50px;
-}
 
 
 /* ===================================
