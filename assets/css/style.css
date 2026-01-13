@@ -28,6 +28,12 @@ body {
 .custom-btn {
     background-color: var(--flamingo);
     border-color: var(--flamingo);
+
+}
+
+.custom-btn:hover {
+    background-color: var(--tide);
+    border-color: var(--tide);
 }
 
 /* ===================================
@@ -122,11 +128,12 @@ body {
    =================================== */
 .contact-section {
     /* Customize contact section styles here */
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px 50px;
-    background-color: var(--leather);
+    background-color: var(--millbrook);
+    color: white;
 }
 
 
@@ -172,6 +179,14 @@ body {
     min-height: 100px;
     width: 100%;
 }
+
+.footer-section {
+    /* Customize footer section styles here */
+        text-align: center;
+        padding: 10px 0;
+        flex-wrap: wrap;
+        flex: space-between;
+    }
 }
 
 
@@ -180,7 +195,7 @@ body {
 @media (min-width: 576px) {
     /* Customize styles for small screens here */
      .hero-section {
-        min-height: 300px;
+        min-height: 310px;
         background-position: center;
         background-size: cover;
     }
