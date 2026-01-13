@@ -18,7 +18,7 @@
     <!-- NAVIGATION BAR -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="fa-solid fa-person-shelter"></i>Safeguarding</a>
+    <a class="navbar-brand" href="index.html"><i class="fa-solid fa-person-shelter"></i>Safeguarding</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,10 +29,13 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Information</a>
+          <a class="nav-link" href="#key-info">Information</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Actions</a>
+          <a class="nav-link" href="#key-actions">Actions</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -119,28 +122,45 @@
 
     <br>
 
+    
     <!-- CONTACT SECTION -->
     <!-- Add your contact form or contact details here -->
-    <section id="contact" class="contact-section">
-        <!-- Contact content goes here -->
-         <form class="container">
-                   <h2>Contact Us</h2>
-          <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Your Name">
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" placeholder="name @example.com">
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Message</label>       
-            <textarea class="form-control" id="message" rows="3" placeholder="Your message here..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary custom-btn">Submit</button>
-        </form> 
+ <section class="section-padding contact-section" id="contact">
+<div class="row">
+<div class="col-md-6">
+<h2>Report a Safeguarding Concern</h2>
+<p>
+If you are worried about someone’s safety, please report your concern as soon as possible using the form below
+or by contacting the safeguarding lead directly.
+</p>
+<ul>
+<li><strong>Safeguarding Lead:</strong> Jane Doe</li>
+<li><strong>Email:</strong> safeguarding@example.org</li>
+<li><strong>Phone:</strong> 01234 567890</li>
+</ul>
+</div>
 
-    </section>
+
+<div class="col-md-6">
+<form>
+<div class="mb-3">
+<label for="name" class="form-label">Your Name</label>
+<input type="text" class="form-control" id="name" placeholder="Enter your name">
+</div>
+<div class="mb-3">
+<label for="email" class="form-label">Your Email</label>
+<input type="email" class="form-control" id="email" placeholder="Enter your email">
+</div>
+<div class="mb-3">
+<label for="message" class="form-label">Concern Details</label>
+<textarea class="form-control" id="message" rows="4" placeholder="Describe your concern"></textarea>
+</div>
+<button type="submit" class="btn btn-primary custom-btn">Submit Concern</button>
+</form>
+</div>
+</div>
+</section>
+
 
 
 <br>
@@ -150,14 +170,16 @@
     <footer id="footer" class="footer-section">
       <!-- Footer content goes here -->
        <section class="social-media">
-        <div></div>
+        <div>
           Follow us on:
       <a href="https://www.facebook.com" class="icon" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
       <a href="https://www.twitter.com" class="icon" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
       <a href="https://www.instagram.com" class="icon" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
-        </div>  
+      <p><i class="fa-regular fa-copyright"></i> 2026 Safeguarding Awareness. All rights reserved.</p>
+       </div>  
+
     </section>
-      
+     
     </footer>
 
     <!-- Bootstrap JS Bundle -->

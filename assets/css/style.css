@@ -118,13 +118,12 @@ body {
    =================================== */
 .footer-section {
     /* Customize footer section styles here */
-    .container {
         text-align: center;
         padding: 20px 0;
         flex-wrap: wrap;
         flex: space-between;
     }
-}
+
 /* Footer icon spacing */
 .footer-section .icon {
     display: inline-block;
