@@ -77,18 +77,26 @@ body {
    =================================== */
 .key-info-section {
     /* Customize key information section styles here */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 25px;
     background-color: var(--tide);
+    position: center;
 }
-.key-info-section .card{
+
+.key-info-section .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.key-info-section .col {
+    display: flex;
+}
+
+.key-info-section .card {
     display: flex;
     flex-direction: column;
     height: 100%;
     text-align: left;
- 
+    width: 20rem
 }
 
 .key-info-section .card-img-top {
@@ -98,11 +106,14 @@ body {
 }
 
 .key-info-section .boy {
-      height: 200px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
 }
    
+.key-info-section .card-title {
+    font-weight: bolder;
+}
 
 
 
