@@ -10,4 +10,5 @@ Photos extracted from: https://www.freepik.com/
 When I checked on the deployed site after making more changes, the hero image was not showing. So I used copilot to sort it out. it was becasue my 'image' folder began with capital letters.
 
 Formatted index.html with prettier.
+noopener to open external links in a new tab
 
