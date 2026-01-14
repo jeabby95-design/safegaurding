@@ -137,8 +137,12 @@ h2, h3, h4, h5, h6 {
     margin-top: 20px;
 }
 
-
-
+.modal-body{
+    position: relative;
+    flex: 1 1 auto;
+    color: var(--secondary-color);
+    padding: var(--bs-modal-padding);
+}
 
 
 /* ===================================
