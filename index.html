@@ -68,7 +68,7 @@
     <!-- Add your key information content here -->
 
 <section id="key-info" class="key-info-section">
-   <div class="container text-center"><h1>Key Information</h1>
+   <div class="container text-center"><h2>Key Information</h2>
       <!-- Key information content goes here -->
 
 
@@ -170,17 +170,23 @@ or by contacting the safeguarding lead directly.
 <form>
 <div class="mb-3">
 <label for="name" class="form-label">Your Name</label>
-<input type="text" class="form-control" id="name" placeholder="Enter your name">
+<input type="text" class="form-control" id="name" placeholder="Enter your name" required>
 </div>
 <div class="mb-3">
 <label for="email" class="form-label">Your Email</label>
-<input type="email" class="form-control" id="email" placeholder="Enter your email">
+<input type="email" class="form-control" id="email" placeholder="Enter your email" required>
 </div>
 <div class="mb-3">
 <label for="message" class="form-label">Concern Details</label>
-<textarea class="form-control" id="message" rows="4" placeholder="Describe your concern"></textarea>
+<textarea class="form-control" id="message" rows="4" placeholder="Describe your concern" required> </textarea>
 </div>
-<button type="submit" class="btn btn-primary custom-btn">Submit Concern</button>
+
+<div id="successAlert" class="alert alert-success d-none" role="alert">
+Your concern has been submitted successfully!
+</div>
+
+<button type="submit" class="btn btn-primary custom-btn" id="liveAlertBtn">Submit Concern</button>
+
 </form>
 </div>
 </div>

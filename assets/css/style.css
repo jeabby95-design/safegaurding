@@ -100,9 +100,17 @@ body {
     padding: 25px 25px;
     background-color: var(--tide);}
 
+.key-info-section h2 {
+    font-family: 'Rammetto One', cursive;
+    color: var(--millbrook);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .key-info-section .row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
 
@@ -285,20 +293,31 @@ body {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     /* Customize styles for large screens here */
-.hero-section {
-        min-height: 500px;
-        background-position: center;
-        background-size: cover;
-    }
-.hero-section h1 {
-    font-size: 2.5rem;  
-    margin-top: 20%;  
+    .hero-section {
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    min-width: 992px
+    background-color: var(--tide);
+}
+.banner {
+   width: 100vw;    
 }
 
-.hero-section .bg-white {
-    opacity: 0.8;
-    min-height: 100px;
-    width: 100%;
+.hero-section h1 {
+    font-family: 'Luckiest Guy', sans-serif;
+    color: #5e4031;
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.hero-section h3 {
+    font-family: 'Noto Serif', serif;
+    color: var(--fiord);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: .1px;
 }
 
   .key-info-section {
@@ -312,9 +331,37 @@ body {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     /* Customize styles for extra large screens here */
+     .hero-section {
+    background-size: cover;
+    background-position: center;
+    min-width: 1200px;
+    min-height: 800px;
+    background-color: var(--tide);
+}
+.banner {
+   width: 100vw;    
 }
 
-/* XXL devices (extra large desktops, 1400px and up) */
-@media (min-width: 1400px) {
-    /* Customize styles for xxl screens here */
+.hero-section h1 {
+    font-family: 'Luckiest Guy', sans-serif;
+    color: #5e4031;
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.hero-section h3 {
+    font-family: 'Noto Serif', serif;
+    color: var(--fiord);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: .1px;
+}
+
+  .key-info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+  }
 }
