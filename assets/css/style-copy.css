@@ -56,6 +56,10 @@ h2, h3, h4, h5, h6 {
 
 }
 
+.hero-section .custom-btn {
+    margin-top: 10px;
+}
+
 .custom-btn {
     background-color: var(--highlight-color);
     border-color: var(--highlight-color);
@@ -148,6 +152,60 @@ h2, h3, h4, h5, h6 {
 }
 
 
-/*============
-MEDIA QUERIES 
-=====================*/
+
+
+
+/* ===================================
+   MEDIA QUERIES - RESPONSIVE DESIGN
+   =================================== */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Customize styles for extra small screens here */
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Customize styles for small screens here */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Customize styles for medium screens here */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Customize styles for large screens here */
+    .hero-section {
+
+}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Customize styles for extra large screens here */
+.hero-section .banner {
+    margin-top: 270px
+}
+
+     .hero-section {
+     min-width: 1200px;
+    min-height: 800px;
+     }
+
+     .hero-section h1 {
+    font-size: 6rem;
+    letter-spacing: .4rem;
+}
+
+.hero-section h3 {
+    font-size: 1.5rem;
+    margin-top: .1px;
+}
+
+}
