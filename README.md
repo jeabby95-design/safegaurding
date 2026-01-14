@@ -71,6 +71,7 @@ https://www.gov.uk/childcare-parenting/safeguarding-and-social-care-for-children
 Use of AI Tools
 AI-Assisted Code Creation
 AI tools (GitHub Copilot) were used to generate initial content and code structures. The generated output was reviewed and amended to ensure accuracy, accessibility, and alignment with project objectives.
+Chat-gpt was used to support correcting the errors listed on the hmtl validator.
 AI-Assisted Debugging
 AI tools were used to identify and resolve issues during development, including:
 Detecting why the background image disappeared after adding a Google Font import (caused by CSS being wrapped incorrectly in style tags).
