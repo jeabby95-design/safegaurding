@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index copy.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#key-info">Information</a>
@@ -171,7 +171,31 @@ or by contacting the safeguarding lead directly.
 <textarea class="form-control" id="message" rows="4" placeholder="Describe your concern" required> </textarea>
 </div>
 
-<button type="submit" class="btn btn-primary custom-btn hoover" >Submit Concern</button>
+<button type="submit" class="btn btn-primary custom-btn hoover" data-bs-toggle="modal" data-bs-target="#submitModal">Submit Concern</button>
+
+  <!-- Bootstrap Modal -->
+  <div class="modal fade" id="submitModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title">Success</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body modal-text">
+        Thank you for reporting your concern(s) Someone will contact you within 24 hours.
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 </form>
 </div>
