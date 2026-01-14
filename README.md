@@ -44,6 +44,7 @@ Screenshots
 Screenshot 1: Hero Section – Safeguarding Awareness
 Description: The hero section introduces the safeguarding theme using an inclusive background image, a clear heading, and a learn more button.
 User Value: Immediately communicates the purpose of the website and guides users toward key safeguarding information.
+
 ![screenshot1](assets/screenshots/hero-page.png)
 
 Screenshot 2: Key Information Section
