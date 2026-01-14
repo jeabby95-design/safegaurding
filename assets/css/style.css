@@ -23,6 +23,7 @@ body {
     font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
     line-height: 1.6;
+    background-color: var(--tide);
 }
 
 .custom-btn {
@@ -34,6 +35,14 @@ body {
 .custom-btn:hover {
     background-color: var(--tide);
     border-color: var(--tide);
+}
+
+.custom-btn-cards {
+    background-color: var(--flamingo);
+    border-color: var(--flamingo);
+    object-position: bottom;
+    display:
+
 }
 
 /* ===================================
@@ -85,6 +94,7 @@ body {
     /* Customize key information section styles here */
     background-color: var(--tide);
     position: center;
+    padding: 25px 25px;
 }
 
 .key-info-section .row {
@@ -121,6 +131,15 @@ body {
     font-weight: bolder;
 }
 
+.card-body { 
+    display: flex; flex-direction: column; flex-grow: 1; 
+     } 
+
+.card-body .btn {
+    margin-top: auto; } 
+    /* push btn to the bottom */
+
+
 
 
 /* ===================================
@@ -146,6 +165,7 @@ body {
         padding: 20px 0;
         flex-wrap: wrap;
         flex: space-between;
+        background-color: white;
     }
 
 /* Footer icon spacing */
@@ -180,10 +200,22 @@ body {
     width: 100%;
 }
 
+.key-info-section {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 2px 2px;
+    position: center; 
+}
+
+.contact-section{
+    padding:15px 15px;
+}
+
 .footer-section {
     /* Customize footer section styles here */
         text-align: center;
-        padding: 10px 0;
+        padding: 15px 0px 15px 0px;
         flex-wrap: wrap;
         flex: space-between;
     }
@@ -208,6 +240,13 @@ body {
     min-height: 100px;
     width: 100%;
 }
+.key-info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    position: center;}
+
 }
 
 
@@ -228,11 +267,40 @@ body {
     min-height: 100px;
     width: 100%;
 }
+.key-info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    position: center;
+}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     /* Customize styles for large screens here */
+.hero-section {
+        min-height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+.hero-section h1 {
+    font-size: 2.5rem;  
+    margin-top: 20%;  
+}
+
+.hero-section .bg-white {
+    opacity: 0.8;
+    min-height: 100px;
+    width: 100%;
+}
+
+  .key-info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;}
+    
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
