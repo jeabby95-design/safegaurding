@@ -28,6 +28,11 @@ h2, h3, h4, h5, h6 {
     color: var(--secondary-color);
 }
 
+
+
+/* ===================================
+   HERO SECTION
+   =================================== */
 #hero {
     background: url('../images/safe-hero-img.jpg') no-repeat center center;
     background-size: cover;
@@ -48,15 +53,24 @@ h2, h3, h4, h5, h6 {
     padding: 20px;
     border-radius: 10px;
     margin-top: 60px;
+
+}
+
+.custom-btn {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+    color: white;
+}   
+
+.custom-btn:hover {
+    background-color: var(--highlight-color-light);
+    border-color: var(--highlight-color-light);
+    color: white;
 }
 
 
 
-
-
-
-/* ===================================
-Grids   =================================== */
+/* =Grids   = */
 
 .key-info-section {
     margin-top: 20px;
@@ -133,3 +147,7 @@ Grids   =================================== */
     text-decoration: none;
 }
 
+
+/*============
+MEDIA QUERIES 
+=====================*/
