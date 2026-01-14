@@ -94,6 +94,9 @@ h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
+.key-info-section h3{
+    font-size: 1.5rem;
+}
 
 .key-info-section .card-img-top {
     height: 200px;
