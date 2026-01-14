@@ -41,20 +41,21 @@ All internal links, navigation anchors, and interactive elements were tested and
 
 Screenshots
 
-
 Screenshot 1: Hero Section – Safeguarding Awareness
 Description: The hero section introduces the safeguarding theme using an inclusive background image, a clear heading, and a learn more button.
 User Value: Immediately communicates the purpose of the website and guides users toward key safeguarding information.
+![screenshot1](assets/screenshots/hero-page.png)
 
 Screenshot 2: Key Information Section
 Description: Three Bootstrap cards present What is Safeguarding, Signs to Watch For, and Action Steps, each supported by imagery and structured text.
 User Value:
 Information is broken into clear, scannable sections, making safeguarding guidance easy to understand and access across devices.
+![screeenshot2](<assets/screenshots/key information.png>)
 
 Screenshot 3: Report a Safeguarding Concern Form and footer section
 Description: A responsive contact form allows users to submit safeguarding concerns alongside clearly displayed safeguarding lead contact details. The footer contains social media links and copyright information, with external links opening securely in new tabs.
 User Value: Provides a simple, accessible method for reporting concerns, with immediate visual feedback after submission. The footer section ensures consistent navigation, professional presentation, and secure external linking.
-![Screenshot 3](https://file%2B.vscode-resource.vscode-cdn.net/Users/perry/Desktop/VSCode%20projects/safegaurding-project/safegaurding/assets/screenshots/report%20concerns.png?version%3D1768401473178)
+![screenshot3](<assets/screenshots/report concerns.png>)
 
 External Resources Reference
 The following external resources were used:
@@ -72,7 +73,7 @@ UK Government guidance:
 https://www.gov.uk/childcare-parenting/safeguarding-and-social-care-for-children
 
 Use of AI Tools
-AI-Assisted Code Creation
+AI-Assisted Code Creation: 
 AI tools (GitHub Copilot) were used to generate initial content and code structures. The generated output was reviewed and amended to ensure accuracy, accessibility, and alignment with project objectives.
 Chat-gpt was used to support correcting the errors listed on the hmtl validator.
 AI-Assisted Debugging
