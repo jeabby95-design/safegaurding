@@ -40,6 +40,8 @@ Commented-out code was removed before deployment.
 All internal links, navigation anchors, and interactive elements were tested and confirmed to work correctly.
 
 Screenshots
+
+
 Screenshot 1: Hero Section – Safeguarding Awareness
 Description: The hero section introduces the safeguarding theme using an inclusive background image, a clear heading, and a learn more button.
 User Value: Immediately communicates the purpose of the website and guides users toward key safeguarding information.
@@ -52,6 +54,7 @@ Information is broken into clear, scannable sections, making safeguarding guidan
 Screenshot 3: Report a Safeguarding Concern Form and footer section
 Description: A responsive contact form allows users to submit safeguarding concerns alongside clearly displayed safeguarding lead contact details. The footer contains social media links and copyright information, with external links opening securely in new tabs.
 User Value: Provides a simple, accessible method for reporting concerns, with immediate visual feedback after submission. The footer section ensures consistent navigation, professional presentation, and secure external linking.
+![Screenshot 3](https://file%2B.vscode-resource.vscode-cdn.net/Users/perry/Desktop/VSCode%20projects/safegaurding-project/safegaurding/assets/screenshots/report%20concerns.png?version%3D1768401473178)
 
 External Resources Reference
 The following external resources were used:
