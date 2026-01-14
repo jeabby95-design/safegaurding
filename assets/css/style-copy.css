@@ -17,9 +17,43 @@
 /* Customize your global styles here */
 body {
     font-family: var(--primary-font);
-    padding-top: 55px;
 }
-h1, h2, h3, {
+h1,{
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+
+#hero {
+    background: url('../images/safe-hero-img.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+
+.hero-section h1 {
+    font-weight: bolder;
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+}
+
+.hero-section .bg-white {
+    opacity: 0.8;
+    min-height: 100px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+/* ===================================
+Grids   =================================== */
+
+.key-info-section {
+
 }

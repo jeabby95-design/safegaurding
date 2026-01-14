@@ -60,7 +60,7 @@ body {
    =================================== */
 .hero-section {
     /* Customize hero section styles here */
-    background: url('../Images/safe-hero-img.jpg') no-repeat center center;
+    background: url('../images/safe-hero-img.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     min-height: 1200px;
