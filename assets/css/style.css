@@ -193,9 +193,8 @@ h2, h3, h4, h5, h6 {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 992px)
     /* Customize styles for large screens here */{
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
